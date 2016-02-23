@@ -8,8 +8,9 @@ After you specify the interval of follower amount, click "verilen aralığı tak
 
 ![alt tag](https://raw.githubusercontent.com/yilmazuur/TwitterRobot/master/twitterRobot.PNG)
 
-Fill the twitter API key values related to your account.
+Fill the twitter API key values (in the code) related to your account.
 And you should check twitter API rate limits before using the app.
 https://dev.twitter.com/rest/public/rate-limiting
+You can unfollow users by clicking "500/1000 follow bırak"
 
 Note that the source code of this application is a little bit trash but it works :)
