@@ -26,7 +26,7 @@ namespace TwitterRobot
             DialogResult dialogResult = MessageBox.Show("500 follow silinecek, emin misin?", "Onay", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
-                var follows = service.ListFriendIdsOf(new ListFriendIdsOfOptions() { ScreenName = "sihirdarsozluk" });
+                var follows = service.ListFriendIdsOf(new ListFriendIdsOfOptions() { ScreenName = "your twitter name" });
                 for (int i = follows.Count - 1; i > follows.Count - 501; i--)
                 {
                     try
@@ -47,7 +47,7 @@ namespace TwitterRobot
             DialogResult dialogResult = MessageBox.Show("1000 follow silinecek, emin misin?", "Onay", MessageBoxButtons.YesNo);
             if (dialogResult == DialogResult.Yes)
             {
-                var follows = service.ListFriendIdsOf(new ListFriendIdsOfOptions() { ScreenName = "sihirdarsozluk" });
+                var follows = service.ListFriendIdsOf(new ListFriendIdsOfOptions() { ScreenName = "your twitter name" });
                 for (int i = follows.Count - 1; i > follows.Count - 1001; i--)
                 {
                     try
