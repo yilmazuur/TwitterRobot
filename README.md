@@ -1,6 +1,6 @@
 # TwitterRobot
 
-This application can be used for following or unfollowing 500-1000 people. You should give a twitter name that contains people(as follower) you want to follow.
+This application can be used for following or unfollowing 500-1000 people at a time. You should give a twitter name that contains people(as follower) you want to follow.
 Assume there is a popular account named "AccA" related to your account "AccB" somehow. 
 If you want followers of AccA to follow your account AccB too, you can poke them by following them for a while.
 You should give name of the AccA in middle textbox and then click "follower sayısı" button.
